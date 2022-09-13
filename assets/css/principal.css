@@ -1,0 +1,61 @@
+.sobre {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   gap: 2em;
+   padding: 5em;
+}
+
+.sobre__titulo {
+    color: var(--cor-vinho);
+    font-weight: 600;
+}
+
+.sobre__sub-titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--azul-marinho);
+}
+
+.sobre-paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    width: 56vw;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/*Sobre cartao*/
+
+.sobre__cartao {
+    display: flex;
+    margin: 5em 0;
+    gap: 3em;
+}
+
+.sobre__cartao-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.sobre__cartao-numero {
+    color: var(--cor-vinho);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.sobre__cartao-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-marinho);
+}
+
+.sobre__cartao-texto {
+    color: var(--azul);
+    line-height: 1.5em;
+}
+
+/*Sobre finalizado*/
