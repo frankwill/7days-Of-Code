@@ -1,0 +1,20 @@
+@import url(header.css);
+@import url(principal.css);
+@import url(sobre.css);
+
+:root {
+    --fonte-principal: 'Inter', 'sans-serif';
+    --branco: #FFFFFF;
+    --cor-vinho: #8E2424;
+    --azul-marinho: #101828;
+    --azul: #3A404E;
+    --cinza: #667085;
+    --cinza-claro: #98A2B3;
+}
+
+body {
+    background: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
