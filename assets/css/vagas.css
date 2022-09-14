@@ -1,0 +1,70 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.vagas__titulo {
+    font-size: 14px;
+    color: var(--cor-vinho);
+    font-weight: 500;
+}
+
+.vagas__texto {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--azul-marinho);
+}
+
+.vagas__paragrafo {
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+.vagas__img {
+    padding: 2em;
+}
+
+.vagas-abertas {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3em;
+}
+
+.vagas-abertas__titulo {
+    display: grid;
+    grid-column: 1 / span 2;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--azul-marinho);
+}
+
+.vagas-abertas__lista {
+    display: grid;
+    row-gap: 1.5em;
+    margin-bottom: 3em;
+
+}
+
+.vagas-abertas__item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+    padding: 1em 2em;
+    width: 50vw;
+    border: 1px solid var(--cinza-claro2);
+    border-radius: 10px;
+}
+
+.vagas-abertas__item-titulo {
+    grid-column: span 2;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul-marinho);
+}
+
+.vagas-abertas__item-descricao {
+    font-weight: 500;
+    color: var(--azul);
+}
