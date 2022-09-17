@@ -1,0 +1,40 @@
+.depoimentos {
+    background: var(--cinza-claro3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 3em;
+    gap: 1em;
+}
+
+.depoimentos__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-vinho); 
+}
+
+.depoimentos__texto {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--azul);
+    text-align: center;
+    line-height: 1.2em;
+    padding: 1em 0;
+}
+
+.depoimentos__perfil {
+    background: url(../img/perfil.svg);
+    width: 56px;
+    height: 56px;
+}
+
+.depoimentos__autor {
+    font-weight: 500;
+    color: var(--azul);
+}
+
+.depoimentos__descricao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
