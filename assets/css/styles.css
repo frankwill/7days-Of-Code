@@ -3,6 +3,7 @@
 @import url(sobre.css);
 @import url(vagas.css);
 @import url(depoimentos.css);
+@import url(rodape.css);
 
 :root {
     --fonte-principal: 'Inter', 'sans-serif';
@@ -14,6 +15,7 @@
     --cinza-claro: #98A2B3;
     --cinza-claro2: #EAECF0;
     --cinza-claro3: #E5E5E5;
+    --cor-footer: #F9FAFB;
 }
 
 body {
